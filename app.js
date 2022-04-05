@@ -8,7 +8,7 @@ var SO1 = ["Hi, I'm <span>OMRANI Sirine.</span>", "An Electronic Engineering Stu
 var O1 = ["Hi, I'm <span>Oumaima ZRIBI.</span>", "Data scientist.", " I'm a data scientist. I was hocked by the artificial intelligence, its different field and its possible realisations that's why I chose it as a career.", "img/me.png"]
 var M1=["Hi, I'm <span>Mayssen GHARBI.</span>","An Otaku and Mangaka Girl.","I'm an Otaku Girl, I love to watch anime more than anything else. Actually, i love drawing manga too 😁✏️. And guess what! Lately, i started doing some DIY and drawing in clothes..😎<br/> Stop waisting time and take a look at some of my work 👉","img/hero.png"];
 var section1 =[SN1, SO1, O1, M1];
-var i=1;
+var i=3;
 
 document.getElementById("section1_1").innerHTML= section1[i][0];
 document.getElementById("section1_2").innerHTML= section1[i][1];
