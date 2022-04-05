@@ -30,7 +30,7 @@ var O2 =["I'm a data science engineering student. At the moment, I'm occupied by
 var M2=["My name is Mayssen GHRABI and i'm 23 years old. Im actually in my last year of studies as a Telecomunications engineering the National School of engineering studies ENIT.<br/> I'm passionated about the japanese culture and i have a dream of visiting it one day.<br/>I have a lot of passions, I love watching anime and I really like spending my free time drawing mangas, on clothes and even doing DIY.", "40+", "Mangas","160+", "Anime <br /> Watched", "50+", "Film <br /> Watched","Naruto","90%", "Attack On Titan","85%","HxH","80%", "Bungou Stray Dogs","80%", "My Favorite Anime","First","Gojo <br/><span> Satoru</span>","From <strong>Jujutsu Kaisen</strong>.",
 "Second","Aomine <br/><span> Daiki</span>","From <strong>Kuroko No Basuke</strong>.","Third","Levi <br/><span> Akerman</span>","From <strong>Attack On Titan</strong>.", "My 6 Top Characters"]
 var section2 =[SN2, SO2, O2, M2];
-var j=0;
+var j=3;
 
 document.getElementById("section2_1").innerHTML= section2[j][0];
 document.getElementById("section2_2").innerHTML= section2[j][1];
