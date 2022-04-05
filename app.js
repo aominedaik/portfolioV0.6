@@ -8,7 +8,7 @@ var SO1 = ["Hi, I'm <span>OMRANI Sirine.</span>", "An Electronic Engineering Stu
 var O1 = ["Hi, I'm <span>Oumaima ZRIBI.</span>", "Data scientist.", " I'm a data scientist. I was hocked by the artificial intelligence, its different field and its possible realisations that's why I chose it as a career.", "img/me.png"]
 var M1=["Hi, I'm <span>Mayssen GHARBI.</span>","An Otaku and Mangaka Girl.","I'm an Otaku Girl, I love to watch anime more than anything else. Actually, i love drawing manga too 😁✏️. And guess what! Lately, i started doing some DIY and drawing in clothes..😎<br/> Stop waisting time and take a look at some of my work 👉","img/hero.png"];
 var section1 =[SN1, SO1, O1, M1];
-var i=3;
+var i=1;
 
 document.getElementById("section1_1").innerHTML= section1[i][0];
 document.getElementById("section1_2").innerHTML= section1[i][1];
@@ -30,7 +30,7 @@ var O2 =["I'm a data science engineering student. At the moment, I'm occupied by
 var M2=["My name is Mayssen GHRABI and i'm 23 years old. Im actually in my last year of studies as a Telecomunications engineering the National School of engineering studies ENIT.<br/> I'm passionated about the japanese culture and i have a dream of visiting it one day.<br/>I have a lot of passions, I love watching anime and I really like spending my free time drawing mangas, on clothes and even doing DIY.", "40+", "Mangas","160+", "Anime <br /> Watched", "50+", "Film <br /> Watched","Naruto","90%", "Attack On Titan","85%","HxH","80%", "Bungou Stray Dogs","80%", "My Favorite Anime","First","Gojo <br/><span> Satoru</span>","From <strong>Jujutsu Kaisen</strong>.",
 "Second","Aomine <br/><span> Daiki</span>","From <strong>Kuroko No Basuke</strong>.","Third","Levi <br/><span> Akerman</span>","From <strong>Attack On Titan</strong>.", "My 6 Top Characters"]
 var section2 =[SN2, SO2, O2, M2];
-var j=3;
+var j=0;
 
 document.getElementById("section2_1").innerHTML= section2[j][0];
 document.getElementById("section2_2").innerHTML= section2[j][1];
@@ -64,7 +64,7 @@ var O3=["Here are some fields that I'm interested in","img/cloud.jpg","Cloud","i
 var SN3=["Here you will find some of my achievements . 😉" , "img/port1.jpg " , "SFC Certified" , "img/port2.jpg" ,"Python for Data science" , "img/port3.jpg", "Neo4j"];
 var SO3=["Here is some of my work that I've done in university career." , "img/Mineur.jpeg", "Miner Robot" ,"img/Mixer.jpeg","Mixer" ,"img/VM1.jpeg", "Vending Machine"];
 var M3=["Here is some of my drawings that I've done...Try to enjoy them 😉", "img/pic1.jpg","Drawing original Pub","img/pic2.jpg","Drawing original Pub","img/pic3.jpg","Drawing original Pub"];
-var section3=[SN3, SO3, O3];
+var section3=[SN3, SO3, O3, M3];
 var k=2;
 
 document.getElementById("section3_1").innerHTML= section3[k][0];
@@ -102,11 +102,11 @@ document.getElementById("section4_10").innerHTML= section4[m][9];
 
 
 //section5
-var SO4=["","MONASTIR, Tunisia","sirine.o@db-consulting-group.com","ISIMM University","92775913","Arabic, English, French"];
-var SN4=["",": 18 Street Corniche Sousse" , ": sirine.n@db-consulting-group.com" , ": ISIMM , Monastir" , ": +216 50 669 519" ,": Arabic, Frensh, English, Spanish"];
-var O4=["",": Siliana, Tunisia","oumaima.z@db-consulting-group.com", "ENET'COM University","93769127","Arabe, English, French"];
-var M4=["Feel free to contact me in any time 😉",": Tunis,Tunisie",": gharbimayssen00@gmail.com",": ENIT, Campus el Manar, Tunis",": +216 90 60 79 12",": Arabic, Frensh, English"]
-var section5=[SN4, SO4, O4, M4];
+var SO5=["","MONASTIR, Tunisia","sirine.o@db-consulting-group.com","ISIMM University","92775913","Arabic, English, French"];
+var SN5=["",": 18 Street Corniche Sousse" , ": sirine.n@db-consulting-group.com" , ": ISIMM , Monastir" , ": +216 50 669 519" ,": Arabic, Frensh, English, Spanish"];
+var O5=["",": Siliana, Tunisia","oumaima.z@db-consulting-group.com", "ENET'COM University","93769127","Arabe, English, French"];
+var M5=["Feel free to contact me in any time 😉",": Tunis,Tunisie",": gharbimayssen00@gmail.com",": ENIT, Campus el Manar, Tunis",": +216 90 60 79 12",": Arabic, Frensh, English"]
+var section5=[SN5, SO5, O5, M5];
 var l=1;
 
 document.getElementById("section5_1").innerHTML= section5[l][0];
